@@ -15,6 +15,12 @@ client.on("message", (msg) => {
   if (msg.content === "trans") {
     msg.channel.send("rights");
   }
+  if (msg.content === "cool") {
+    msg.react("😎");
+  }
+  if (msg.content === 'fart') {
+    msg.react('💩')
+  }
 });
 
 
